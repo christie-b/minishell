@@ -1,5 +1,7 @@
 # minishell
 
+[![jaeskim's 42Project Score](https://badge42.herokuapp.com/api/project/cboutier/minishell)](https://github.com/JaeSeoKim/badge42)
+
 Validated on November 1st, 2021
 
 100/100 
