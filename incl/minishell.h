@@ -6,7 +6,7 @@
 /*   By: cboutier <cboutier@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/08/26 09:58:14 by cboutier          #+#    #+#             */
-/*   Updated: 2021/11/01 09:27:45 by cboutier         ###   ########.fr       */
+/*   Updated: 2022/01/28 15:41:48 by cboutier         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -32,7 +32,7 @@
 # define READ 0
 # define WRITE 1
 
-int		g_exit_status;
+extern int		g_exit_status;
 
 /* ARG_UTILS */
 t_token	*ft_go_forward(t_token *list);

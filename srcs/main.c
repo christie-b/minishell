@@ -6,7 +6,7 @@
 /*   By: cboutier <cboutier@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/10/29 16:17:45 by cboutier          #+#    #+#             */
-/*   Updated: 2021/10/29 16:17:54 by cboutier         ###   ########.fr       */
+/*   Updated: 2022/01/28 15:41:20 by cboutier         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -41,10 +41,11 @@ void	main_loop(t_env *env)
 	}
 }
 
+int		g_exit_status;
 int	main(int ac, char **av, char **envp)
 {
 	t_env	*env;
-
+	g_exit_status = 0;
 	(void)av;
 	if (ac != 1)
 		return (0);
